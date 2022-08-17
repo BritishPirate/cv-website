@@ -6,6 +6,10 @@ function contactButtons(id){
 
 }
 
+function log(){
+  console.log('ping');
+}
+
 anime({
   targets: '',
   translateX: 250,
