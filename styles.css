@@ -13,6 +13,12 @@ header {
     margin-bottom: 10px;
 }
 
+.square {
+    height: 50px;
+    width: 50px;
+    background-color: #555;
+  }
+
 .text-default {
     font-family: "Source Sans Pro";
     color: rgb(232,230,227);

@@ -4,9 +4,10 @@
         <title>Nur Luski Levi's CV</title>
         <meta charset="utf-8">
         <script defer src="index.js" charset="utf-8"></script>
+        <script src="anime.min.js"></script>
         <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="/node_modules/reveal.js/dist/reveal.css">
-        <link rel="stylesheet" href="/node_modules/reveal.js/dist/theme/black.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.js"></script>
+        <script src="backend.js" charset="utf-8"></script>
     </head>
     <body>
         <div id="header-container">
@@ -14,8 +15,8 @@
             <div id="name" class="text-default"><b><h1>Nur Luski Levi</h1></b></div>
             <div id="contact-details" class="flex-container"> <!-- TODO: Fix icon sizes -->
                 <a href="mailto: nur10000@gmail.com" id="email" class="flex-item">
-                    <span>
-                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" width="24px" fill="#FFFFFF">
+                    <span id="email-icon" >
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" width="24px" fill="#FFFFFF" id="email-icon-svg" onmouseenter="contactButtons(this.id)">
                             <path d="M0 0h24v24H0z" fill="none"/>
                             <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
                         </svg>
