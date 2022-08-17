@@ -16,6 +16,7 @@ header {
 .text-default {
     font-family: "Source Sans Pro";
     color: rgb(232,230,227);
+    overflow-wrap: break-word;
 }
 
 .text-section-title {
